@@ -48,19 +48,26 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3><a href="https://github.com/bakiakyol/aula-f75-hub">aula-f75-hub</a></h3>
       <p>Linux configuration tool for the AULA F75 keyboard: lighting effects, per-key RGB and key remapping. GTK GUI + CLI, no vendor software needed.</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/GTK-7FE719?style=flat-square&logo=gtk&logoColor=black" alt="GTK" />
       <img src="https://img.shields.io/badge/reverse_engineering-334155?style=flat-square" alt="Reverse engineering" />
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3><a href="https://bakiakyol.com">bakiakyol.com</a></h3>
       <p>My personal website. Content is managed with a headless CMS, so I can update it without touching the code.</p>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
       <img src="https://img.shields.io/badge/Sanity-F03E2F?style=flat-square&logo=sanity&logoColor=white" alt="Sanity" />
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://nilu-portfolio.vercel.app">nilü's forest</a></h3>
+      <p>A 70s record-sleeve style one-pager I built for a friend: a turntable that plays Spotify, an SVG forest that turns to night as you scroll, and three little canvas games. <a href="https://github.com/bakiakyol/nilu-portfolio">Code</a></p>
+      <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
     </td>
   </tr>
 </table>
