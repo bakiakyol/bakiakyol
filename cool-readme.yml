@@ -5,7 +5,7 @@ show: [summary, languages, weekly, streaks]
 
 count:
   private: true   # private repos count in the totals; their names never appear
-  orgs: true
+  orgs: false     # no organizations; also lets the token work without read:org
 
 look:
   style: dotmatrix
