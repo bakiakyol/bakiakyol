@@ -1,0 +1,40 @@
+# README cards, see https://github.com/pedrocatalao/github-cool-readme
+# The action is pinned to the commit of v1.6.0, so a later change to its v1 tag
+# can't run with this token until it is updated here on purpose.
+name: Update README cards
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pedrocatalao/github-cool-readme@4b5612f2aa2da65cc4012b3fb006b646abb33cf0 # v1.6.0
+        with:
+          token: ${{ secrets.CARDS_TOKEN || secrets.METRICS_TOKEN }}
+          output: ${{ runner.temp }}/cards
+      # The cards live on their own branch, as a single commit replaced on each change,
+      # so they don't add to the history of the main branch.
+      - name: Publish the cards on the cards branch
+        run: |
+          if ! ls "$RUNNER_TEMP"/cards/*.svg >/dev/null 2>&1; then echo "No cards: they're off"; exit 0; fi
+          git fetch --quiet --depth 1 origin cards:refs/remotes/origin/cards 2>/dev/null || true
+          git switch --quiet --orphan cards
+          cp "$RUNNER_TEMP"/cards/*.svg .
+          git add -- *.svg
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --quiet -m 'Update README cards'
+          if git rev-parse --quiet --verify origin/cards >/dev/null && git diff --quiet origin/cards HEAD; then
+            echo "No changes"
+            exit 0
+          fi
+          git push --force origin cards

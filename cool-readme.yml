@@ -1,0 +1,13 @@
+# Settings for the README cards: https://github.com/pedrocatalao/github-cool-readme#settings
+user: bakiakyol
+
+show: [summary, languages, weekly, streaks]
+
+count:
+  private: true   # private repos count in the totals; their names never appear
+  orgs: true
+
+look:
+  style: dotmatrix
+  color: cyan
+  background: none
