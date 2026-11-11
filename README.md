@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://bakiakyol.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=2DD4BF&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Baki;Pharmacy+student+%40+%C4%B0stinye+University;Where+healthcare+meets+code;Linux+(Mint+%2B+i3)+user;I+build+websites+for+people" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=2DD4BF&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Baki;Pharmacy+student+%40+%C4%B0stinye+University;Where+healthcare+meets+code;Arch+Linux+%2B+Hyprland+user;I+build+websites+for+people" alt="Typing intro" />
 </a>
 
 <p>
@@ -16,7 +16,7 @@
 
 - Pharmacy student at **İstinye University**, writing code on the side.
 - Learning **Python** and **web development** on Codecademy, mostly so I can build my own projects.
-- Daily driver: **Linux Mint + i3**. When something doesn't work on Linux, I try to write the tool myself.
+- Daily driver: **Arch Linux + Hyprland**, with a desktop I wrote myself ([makima-hypr](https://github.com/bakiakyol/makima-hypr)). When something doesn't work on Linux, I try to write the tool myself.
 - I build **personal and portfolio websites** for people. If you need one, reach out.
 - Interested in the place where **healthcare meets code**.
 
@@ -39,8 +39,9 @@
 </p>
 <p>
   <img src="https://img.shields.io/badge/GTK-7FE719?style=for-the-badge&logo=gtk&logoColor=black" alt="GTK" />
-  <img src="https://img.shields.io/badge/Linux_Mint-87CF3E?style=for-the-badge&logo=linuxmint&logoColor=white" alt="Linux Mint" />
-  <img src="https://img.shields.io/badge/i3-1E1E1E?style=for-the-badge&logo=i3&logoColor=white" alt="i3" />
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/Hyprland-58E1FF?style=for-the-badge&logo=hyprland&logoColor=black" alt="Hyprland" />
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
@@ -48,21 +49,31 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/bakiakyol/makima-hypr">makima-hypr</a></h3>
+      <a href="https://github.com/bakiakyol/makima-hypr"><img src="https://raw.githubusercontent.com/bakiakyol/makima-hypr/main/assets/screenshots/tiled.jpg" alt="makima-hypr desktop" width="100%" /></a>
+      <p>My Hyprland desktop, themed after Makima from Chainsaw Man. Hand-written Lua config, animations measured on my laptop, and one color palette taken from one wallpaper.</p>
+      <img src="https://img.shields.io/badge/Hyprland-58E1FF?style=flat-square&logo=hyprland&logoColor=black" alt="Hyprland" />
+      <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua" />
+      <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" />
+    </td>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/bakiakyol/aula-f75-hub">aula-f75-hub</a></h3>
       <p>Linux configuration tool for the AULA F75 keyboard: lighting effects, per-key RGB and key remapping. GTK GUI + CLI, no vendor software needed.</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/GTK-7FE719?style=flat-square&logo=gtk&logoColor=black" alt="GTK" />
       <img src="https://img.shields.io/badge/reverse_engineering-334155?style=flat-square" alt="Reverse engineering" />
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://bakiakyol.com">bakiakyol.com</a></h3>
       <p>My personal website. Content is managed with a headless CMS, so I can update it without touching the code.</p>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
       <img src="https://img.shields.io/badge/Sanity-F03E2F?style=flat-square&logo=sanity&logoColor=white" alt="Sanity" />
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3><a href="https://nilu-portfolio.vercel.app">nilü's forest</a></h3>
       <p>A 70s record-sleeve style one-pager I built for a friend: a turntable that plays Spotify, an SVG forest that turns to night as you scroll, and three little canvas games. <a href="https://github.com/bakiakyol/nilu-portfolio">Code</a></p>
       <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
@@ -74,9 +85,26 @@
 
 ## GitHub stats
 
-<div align="center">
-  <img src="metrics.general.svg" alt="GitHub stats" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/summary-dark.svg" />
+    <img src="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/summary-light.svg" width="400" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/languages-dark.svg" />
+    <img src="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/languages-light.svg" width="400" alt="Most used languages" />
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/weekly-dark.svg" />
+    <img src="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/weekly-light.svg" width="400" alt="Weekly rhythm" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/streaks-dark.svg" />
+    <img src="https://raw.githubusercontent.com/bakiakyol/bakiakyol/cards/streaks-light.svg" width="400" alt="Streaks" />
+  </picture>
+</p>
 
 <div align="center">
   <picture>

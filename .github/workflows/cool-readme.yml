@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: pedrocatalao/github-cool-readme@4b5612f2aa2da65cc4012b3fb006b646abb33cf0 # v1.6.0
         with:
-          token: ${{ secrets.CARDS_TOKEN || secrets.METRICS_TOKEN }}
+          token: ${{ secrets.CARDS_TOKEN }}
           output: ${{ runner.temp }}/cards
       # The cards live on their own branch, as a single commit replaced on each change,
       # so they don't add to the history of the main branch.
